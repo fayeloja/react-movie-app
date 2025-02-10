@@ -39,7 +39,7 @@ function Home() {
             setError(null);
         } catch (err) {
             console.log(err);
-            setError("Failed to search for movies...");
+            setError("Failed to search movies...");
         } finally {
             setLoading(false);
         }
